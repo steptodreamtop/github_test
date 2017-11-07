@@ -5,5 +5,3 @@
 
 <div class="ftCon-Wrapper"><div id="ftConw"><p id="lh">
 </p><p id="cp">&copy;2017&nbsp;B2C技术产品组&nbsp;
-<a href="mailto:fuyou.dai@qq.com" class="cp-feedback" onmousedown="return ns_c({'fm':'behs','tab':'tj_homefb'})">意见反馈</a>
-    </div>
