@@ -1,4 +1,4 @@
-package src.yxxy.c_004;
+package yxxy.c_004;
 
 public class T {
 	private static int count = 10;

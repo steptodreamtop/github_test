@@ -1,4 +1,4 @@
-package src.yxxy.c_012;
+package yxxy.c_012;
 
 import java.util.concurrent.TimeUnit;
 /*volatile 关键字，使一个变量在多个线程间可见

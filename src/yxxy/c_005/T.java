@@ -1,4 +1,4 @@
-package src.yxxy.c_005;
+package yxxy.c_005;
 //分析程序的输出（线程重入问题）
 public class T implements Runnable{
 	private static int count = 10;

@@ -1,4 +1,4 @@
-package src.yxxy.c_008;
+package yxxy.c_008;
 
 import java.util.concurrent.TimeUnit;
 

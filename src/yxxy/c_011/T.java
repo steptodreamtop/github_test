@@ -1,4 +1,4 @@
-package src.yxxy.c_011;
+package yxxy.c_011;
 
 import java.util.concurrent.TimeUnit;
 //程序在执行过程中，如果出现异常，默认情况锁会被释放
