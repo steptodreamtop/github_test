@@ -9,7 +9,6 @@ public class T {
 		try {
 			TimeUnit.SECONDS.sleep(1);
 		} catch (InterruptedException e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 		System.out.println("m end");
