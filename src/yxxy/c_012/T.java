@@ -18,11 +18,16 @@ import java.util.concurrent.TimeUnit;
  volatile并不能保证多线程同时修改带来的不一致问题，所以volatile不能代替synchronized*/
 
 public class T {
-	 volatile boolean running = true;// 对比一下有无volatile的情况下，整个程序运行结果的区别
+	 /*volatile*/ boolean running = true;// 对比一下有无volatile的情况下，整个程序运行结果的区别
 
 	void m() {
 		System.out.println(" m start ");
 		while (running) {
+			try {
+				TimeUnit.MICROSECONDS.sleep(10);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 			// System.out.println(" running:"+running);
 		}
 		System.out.println(" m end ");
