@@ -46,7 +46,7 @@ public class T {
 				// TODO Auto-generated method stub
 				t.m();
 			}
-		}).start();
+		},"t1").start();
 		try {
 			TimeUnit.SECONDS.sleep(3);
 		} catch (InterruptedException e) {
@@ -61,7 +61,7 @@ public class T {
 				// TODO Auto-generated method stub
 				t.m();
 			}
-		});
+		},"t2");
 		t.o = new Object();// 锁对象发生改变，所以t2线程得以执行，如果注释掉这句话，线程2将永远得不到执行机会
 		t2.start();
 
