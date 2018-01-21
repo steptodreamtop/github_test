@@ -1,28 +1,27 @@
 /**   
- * @Title: MyContainer1.java 
- * @Package yxxy.c_019 
- * @Description:  
- * @author 代富有   
- * @date 2018年1月20日 下午6:11:11 
- * @version V1.0   
- */
+* @Title: Mycontainer3.java 
+* @Package yxxy.c_019 
+* @Description:  
+* @author 代富有   
+* @date 2018年1月20日 下午6:13:04 
+* @version V1.0   
+*/
 package yxxy.c_019;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @ClassName: MyContainer1
- * @Description: 曾经的面试题：淘宝 实现一个容器，提供两个方法，add，size
- *               写两个线程，线程1添加10个元素到容器中，线程2监控元素的个数，当个数到5个时，线程2给出提示并结束
- *               分析下面这个程序能完成这个功能吗？
+/** 
+ * @ClassName: Mycontainer3 
+ * @Description:  
  * @author 代富有
- * @date 2018年1月20日 下午6:11:11
- * 
+ * @date 2018年1月20日 下午6:13:04 
+ *  
  */
-public class MyContainer1 {
-	 List lists = new ArrayList();
+public class MyContainer3 {
+	//添加volatile，使t2能够得到通知
+	volatile List lists = new ArrayList();
 
 	public void add(Object o) {
 		lists.add(o);
@@ -33,7 +32,7 @@ public class MyContainer1 {
 	}
 
 	public static void main(String[] args) {
-		final MyContainer1 c = new MyContainer1();
+		final MyContainer3 c = new MyContainer3();
 
 		new Thread(new Runnable() {
 
