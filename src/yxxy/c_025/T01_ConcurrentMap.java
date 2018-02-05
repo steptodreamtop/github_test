@@ -33,7 +33,9 @@ public class T01_ConcurrentMap {
         for (int i = 0; i < ths.length; i++) {
 
             ths[i] = new Thread(() -> {
-                for (int j = 0; j < 10000; j++) map.put("a" + r.nextInt(10000), "a" + r.nextInt(10000));
+                for (int j = 0; j < 10000; j++) {
+                    map.put("a" + r.nextInt(10000), "a" + r.nextInt(10000));
+                }
                 latch.countDown();
             });
         }
