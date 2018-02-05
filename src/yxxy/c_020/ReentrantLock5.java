@@ -6,7 +6,7 @@
  * @date 2018年1月20日 下午6:14:56 
  * @version V1.0   
  */
-package yxxy.c_020;
+package src.yxxy.c_020;
 
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -6,11 +6,9 @@
  * @date 2018年1月19日 下午7:52:10 
  * @version V1.0   
  */
-package yxxy.c_017;
+package src.yxxy.c_017;
 
 import java.util.concurrent.TimeUnit;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 /**
  * @ClassName: T

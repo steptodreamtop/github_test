@@ -1,4 +1,4 @@
-package yxxy.c_007;
+package src.yxxy.c_007;
 
 //分析程序的输出（线程重入问题）
 public class T {

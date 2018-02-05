@@ -6,10 +6,9 @@
 * @date 2018年1月20日 下午6:17:27 
 * @version V1.0   
 */
-package yxxy.c_024;
+package src.yxxy.c_024;
 
 import java.util.Vector;
-import java.util.concurrent.TimeUnit;
 
 /** 
  * @ClassName: TicketSeller2 

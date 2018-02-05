@@ -6,15 +6,12 @@
  * @date 2018年1月20日 下午6:13:36 
  * @version V1.0   
  */
-package yxxy.c_019;
+package src.yxxy.c_019;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
-
-import com.sun.jndi.url.dns.dnsURLContext;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 /**
  * @ClassName: Mycontainer5

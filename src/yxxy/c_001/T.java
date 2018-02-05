@@ -1,4 +1,4 @@
-package yxxy.c_001;
+package src.yxxy.c_001;
 
 //synchronized关键字 对某个对象加锁
 public class T {

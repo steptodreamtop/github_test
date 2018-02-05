@@ -6,7 +6,7 @@
  * @date 2018年1月17日 下午9:50:29 
  * @version V1.0   
  */
-package yxxy.c_012;
+package src.yxxy.c_012;
 
 /**
  * @ClassName: VolatileTest
