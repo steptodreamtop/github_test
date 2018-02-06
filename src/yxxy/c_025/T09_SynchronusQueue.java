@@ -6,7 +6,7 @@
 * @date 2018年1月28日 上午9:55:57 
 * @version V1.0   
 */
-package yxxy.c_025;
+package src.yxxy.c_025;
 
 /** 
  * @ClassName: T09_SynchronusQueue 
