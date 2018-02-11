@@ -20,7 +20,7 @@ import java.util.concurrent.BlockingDeque;
  *
  */
 public class T06_ArrayBlockingQueue {
-    static BlockingDeque<String> strs=new ArrayBlockingQueue<>(10);
+    static BlockingDeque<String> strs= (BlockingDeque<String>) new ArrayBlockingQueue<String>(10);
     static Random r = new Random();
 
     public static void main(String[] args) throws InterruptedException {
